@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap - Make Remote Work</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <!-- Background Patterns -->
+    <div class="bg-pattern dots-pattern">
+        <svg width="100" height="200" viewBox="0 0 100 200" fill="none">
+            <circle cx="10" cy="10" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="30" cy="10" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="50" cy="10" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="70" cy="10" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="90" cy="10" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="10" cy="30" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="30" cy="30" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="50" cy="30" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="70" cy="30" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="90" cy="30" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="10" cy="50" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="30" cy="50" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="50" cy="50" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="70" cy="50" r="5" fill="#0fa3cc" opacity="0.5" />
+            <circle cx="90" cy="50" r="5" fill="#0fa3cc" opacity="0.5" />
+        </svg>
+    </div>
+
+    <div class="bg-pattern wave-pattern">
+        <svg width="150" height="80" viewBox="0 0 150 80" fill="none">
+            <path d="M0 20C30 0 60 40 90 20C120 0 150 40 180 20" stroke="#ff8080" stroke-width="2" />
+            <path d="M0 40C30 20 60 60 90 40C120 20 150 60 180 40" stroke="#ff8080" stroke-width="2" />
+            <path d="M0 60C30 40 60 80 90 60C120 40 150 80 180 60" stroke="#ff8080" stroke-width="2" />
+        </svg>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Navigation -->
+        <nav>
+            <a href="#" class="logo">
+                <img src="./images/logo.svg" alt="Snap logo">
+            </a>
+
+            <div class="nav-links">
+                <div class="dropdown-container">
+                    <a href="#" class="has-dropdown">Features</a>
+                    <div class="dropdown">
+                        <a class="todo">
+                            <img src="./images/icon-todo.svg" alt="Todo List">
+                            <span>Todo List</span>
+                        </a>
+                        <a class="calendar">
+                            <img src="./images/icon-calendar.svg" alt="Calendar">
+                            <span>Calendar</span>
+                        </a>
+                        <a class="reminders">
+                            <img src="./images/icon-reminders.svg" alt="Reminders">
+                            <span>Reminders</span>
+                        </a>
+                        <a class="planning">
+                            <img src="./images/icon-planning.svg" alt="Planning">
+                            <span>Planning</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown-container">
+                    <a href="#" class="has-dropdown">Company</a>
+                    <div class="dropdown">
+                        <a href="#">History</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+
+                <a href="#">Careers</a>
+                <a href="#">About</a>
+            </div>
+
+            <div class="auth-links">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="register">Register</a>
+            </div>
+
+            <div class="hamburger" id="hamburger-menu">
+                <img src="./images/icon-menu.svg" alt="Menu" style="width: 30px; height: 20px;">
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Make remote work</h1>
+                <p class="hero-description">
+                    Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+                    productivity soar.
+                </p>
+                <a href="#" class="cta-button">Learn more</a>
+            </div>
+
+            <div class="hero-visual">
+                <div class="geometric-elements">
+                    <div class="circle-purple"></div>
+
+                    <svg class="circle-tree" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="60" cy="60" r="59" stroke="black" stroke-width="2" />
+                        <line x1="60" y1="20" x2="60" y2="90" stroke="black" stroke-width="2" />
+                    </svg>
+
+                    <div class="circle-black"></div>
+
+                    <div class="person-circle">
+                        <img src="./images/image-hero-desktop.png" alt="Person working on laptop" class="desktop-hero">
+                        <img src="./images/image-hero-mobile.png" alt="Person working on laptop" class="mobile-hero">
+                    </div>
+
+                    <div class="triangle-shape"></div>
+                    <div class="square-shape"></div>
+                    <div class="purple-shape"></div>
+                    <div class="blue-shape"></div>
+
+                    <div class="slider-shape">
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Logos -->
+        <div class="client-logos">
+            <div class="client-logo">
+                <img src="./images/client-databiz.svg" alt="databiz">
+            </div>
+            <div class="client-logo">
+                <img src="./images/client-audiophile.svg" alt="audiophile">
+            </div>
+            <div class="client-logo">
+                <img src="./images/client-meet.svg" alt="meet">
+            </div>
+            <div class="client-logo">
+                <img src="./images/client-maker.svg" alt="maker">
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="mobile-menu-close" id="mobile-menu-close">
+            <img src="./images/icon-close-menu.svg" alt="Close menu">
+        </button>
+        <div class="mobile-nav-links">
+            <div class="mobile-dropdown">
+                <div class="mobile-dropdown-header">
+                    <a href="#" class="mobile-dropdown-toggle">Features</a>
+                    <span class="mobile-dropdown-arrow">▼</span>
+                </div>
+                <div class="mobile-dropdown-content">
+                    <a href="#" class="mobile-dropdown-item">
+                        <img src="./images/icon-todo.svg" alt="Todo List">
+                        <span>Todo List</span>
+                    </a>
+                    <a href="#" class="mobile-dropdown-item">
+                        <img src="./images/icon-calendar.svg" alt="Calendar">
+                        <span>Calendar</span>
+                    </a>
+                    <a href="#" class="mobile-dropdown-item">
+                        <img src="./images/icon-reminders.svg" alt="Reminders">
+                        <span>Reminders</span>
+                    </a>
+                    <a href="#" class="mobile-dropdown-item">
+                        <img src="./images/icon-planning.svg" alt="Planning">
+                        <span>Planning</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mobile-dropdown">
+                <div class="mobile-dropdown-header">
+                    <a href="#" class="mobile-dropdown-toggle">Company</a>
+                    <span class="mobile-dropdown-arrow">▼</span>
+                </div>
+                <div class="mobile-dropdown-content">
+                    <a href="#" class="mobile-dropdown-item">History</a>
+                    <a href="#" class="mobile-dropdown-item">Our Team</a>
+                    <a href="#" class="mobile-dropdown-item">Blog</a>
+                </div>
+            </div>
+
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+        </div>
+        <div class="mobile-auth-links">
+            <a href="#" class="mobile-login">Login</a>
+            <a href="#" class="mobile-register">Register</a>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+</body>
+
+</html>
